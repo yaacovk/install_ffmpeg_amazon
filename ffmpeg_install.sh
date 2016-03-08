@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#based on ffmpeg instalation instructions at https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
+
 sudo yum install autoconf automake cmake freetype-devel gcc gcc-c++ git libtool make mercurial nasm pkgconfig zlib-devel
 
 mkdir ~/ffmpeg_sources
