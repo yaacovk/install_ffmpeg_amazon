@@ -100,7 +100,7 @@ make clean
 #install FFmpeg
 cd ~/ffmpeg_sources
 #If clone did not work uncomment the folloowing lines
-curl http://ffmpeg.org/releases/ffmpeg-3.0.tar.bz2
+curl -O http://ffmpeg.org/releases/ffmpeg-3.0.tar.bz2
 bzip2 -dk ffmpeg-3.0.tar.bz2
 tar -xvf ffmpeg-3.0.tar
 cd ffmpeg-3.0
