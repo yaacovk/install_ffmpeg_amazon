@@ -102,7 +102,7 @@ cd ~/ffmpeg_sources
 git clone http://source.ffmpeg.org/git/ffmpeg.git
 cd ffmpeg
 
-#If clone did not work un comment the folloowing lines
+#If clone did not work uncomment the folloowing lines
 #http://ffmpeg.org/releases/ffmpeg-3.0.tar.bz2
 #bzip2 -dk ffmpeg-3.0.tar.bz2
 #tar -xvf ffmpeg-3.0.tar
