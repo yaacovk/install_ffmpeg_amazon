@@ -115,7 +115,7 @@ hash -r
 
 
 whereis ffmpeg
-whereis ffmprobe
+whereis ffprobe
 
 
 
