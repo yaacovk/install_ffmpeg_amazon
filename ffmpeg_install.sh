@@ -110,6 +110,14 @@ make install
 make distclean
 hash -r
 
+#add to path
+path=$path:~/bin
+whereis ffmpeg
+whereis ffmprobe
+
+
+
+
 
 
 
