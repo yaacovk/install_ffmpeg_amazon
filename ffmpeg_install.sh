@@ -4,6 +4,9 @@
 
 sudo yum install autoconf automake cmake freetype-devel gcc gcc-c++ git libtool make mercurial nasm pkgconfig zlib-devel
 
+#add to path
+path=$path:/$HOME/bin
+
 mkdir ~/ffmpeg_sources
 
 #install Yasm
@@ -110,8 +113,7 @@ make install
 make distclean
 hash -r
 
-#add to path
-path=$path:~/bin
+
 whereis ffmpeg
 whereis ffmprobe
 
